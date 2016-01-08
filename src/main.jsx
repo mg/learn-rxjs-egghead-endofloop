@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router'
 const links= [
   { to: '/v6', label: 'Video 6' },
+  { to: '/v7', label: 'Video 7' },
+  { to: '/v8', label: 'Video 8' },
 ]
 
 const Menu= ({locale, setLocale}) =>
